@@ -168,8 +168,6 @@ $('#submit-btn').click(function () {
 		document.getElementById('results').innerHTML = '<b>Esti introvertit</b><br><br>\
 		Introvertii in general sunt dificil de inteles pentru cei care nu sunt introvertiti, pentru ca este foarte usor sa asumi ca este doar vorba despre timiditate, cand defapt introvertitii sunt doar niste persoane care considera ca este obositor sa fii inconjurat de oameni.\n\
 <br><br>\
-I love this explanation of an introvert’s need to be alone:\n\
-<br><br>\
 Pentru introvertiti, sa fii lasat in linistea si pacea ta este la fel de odihnitor ca somnul, bineinteles ca nu literalmente.\n\n\
 <br><br>\
 Se stie despre introvertiti ca prefera ca inainte sa spuna ce are de zis sa gandeasca profund, si ca prefera un grup mai restrans de prieteni. Ei nu prefera lucruri foarte noi sau surprinzatoare, si se bazeaza mai mult pe ce le este cunoscut. Dupa ce introvertitii vin dintr-un mediu obositor sau plin de oameni, ei isi "reincarca bateria" prin timp petrecut singuri, in liniste.\
