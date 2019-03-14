@@ -168,24 +168,18 @@ $('#submit-btn').click(function () {
 		document.getElementById('results').innerHTML = '<b>Esti introvertit</b><br><br>\
 		Introvertii in general sunt dificil de inteles pentru cei care nu sunt introvertiti, pentru ca este foarte usor sa asumi ca este doar vorba despre timiditate, cand defapt introvertitii sunt doar niste persoane care considera ca este obositor sa fii inconjurat de oameni.\n\
 <br><br>\
-Pentru introvertiti, sa fii lasat in linistea si pacea ta este la fel de odihnitor ca somnul, bineinteles ca nu literalmente.\n\n\
-<br><br>\
-Se stie despre introvertiti ca prefera ca inainte sa spuna ce are de zis sa gandeasca profund, si ca prefera un grup mai restrans de prieteni. Ei nu prefera lucruri foarte noi sau surprinzatoare, si se bazeaza mai mult pe ce le este cunoscut. Dupa ce introvertitii vin dintr-un mediu obositor sau plin de oameni, ei isi "reincarca bateria" prin timp petrecut singuri, in liniste.\
+Se stie despre introvertiti ca prefera ca inainte sa spuna ce au de zis sa gandeasca profund, si ca prefera un grup mai restrans de prieteni. Ei nu prefera lucruri foarte noi sau surprinzatoare, si se bazeaza mai mult pe ce le este cunoscut. Dupa ce introvertitii vin dintr-un mediu obositor sau plin de oameni, ei isi "reincarca bateria" prin timp petrecut singuri, in liniste.\
 		';
 	} else if(total > 0) {
 		document.getElementById('results').innerHTML = '<b>Esti extrovertit</b><br><br>\
-		Fata de introvertiti, extrovertii ca tine "isi reincarca bateriile" socializand. Voi va petreceti timpul in jurul persoanelor apropiate, astfel odihnandu-va de la timpul petrecut singuri sau sub stres.\
+		Fata de introvertiti, extrovertii "isi reincarca bateriile" socializand. Ei isi petrec timpul in jurul persoanelor apropiate, astfel odihnandu-va de la timpul petrecut singuri sau sub stres.\
 <br><br>\
-I like how this extrovert explains the way he/she gains energy from being around other people:\
-<br><br>\
-When I am among people, I make eye contact, smile, maybe chat if there’s an opportunity (like being stuck in a long grocery store line). As an extrovert, that’s a small ‘ping’ of energy, a little positive moment in the day.';
+Cand extrovertitii socializeaza, ei prefera sa realizeze contact vizual cu persoanele cu care vorbesc, sunt deschisi si de obicei ei incep conversatiile.';
 	} else {
 		document.getElementById('results').innerHTML = '<b>Esti ambivertit</b><br><br>\
-		Din moment ce introvertitii si extrovertitii se afla la extreme, restul dintre persoanele ca tine din aceasta categorie se afla in aceasta categorie. Multi dintre voi tind spre a fi introvertit sau extrovertit, dar unii reusesc sa puna in balans aceasta situatie.\
+		Din moment ce introvertitii si extrovertitii se afla la extreme, restul dintre persoanele din aceasta categorie se afla in aceasta categorie. Multi dintre ei tind spre a fi introvertiti sau extrovertiti, dar unii reusesc sa puna in balans aceasta situatie.\
 <br><br>\
-So let’s look at how an ambivert compares.\
-<br><br>\
-Ambiverts exhibit both extroverted and introverted tendencies. This means that they generally enjoy being around people, but after a long time this will start to drain them. Similarly, they enjoy solitude and quiet, but not for too long. Ambiverts recharge their energy levels with a mixture of social interaction and alone time.'
+Ambivertii arata tendinte si de introvertire si de extrovertire. Asta inseamna ca in general ambivertii nu au in general o preferinta intre a sta singuri sau cu prietenii lor, "incarcandu-si bateria" si prin socializare si prin izolare, dar echilibrat'
 	}
 	$('#quiz').addClass('hide');
 	$('#submit-btn').addClass('hide');
