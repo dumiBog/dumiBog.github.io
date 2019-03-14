@@ -165,25 +165,25 @@ $('#submit-btn').click(function () {
 	$('.results').removeClass('hide');
 	$('.results').addClass('show');
 	if(total < 0) {
-		document.getElementById('results').innerHTML = '<b>You are introverted!</b><br><br>\
-		Introverts are tricky to understand, since it’s so easy for us to assume that introversion is the same as being shy, when, in fact, introverts are simply people who find it tiring to be around other people.\n\
+		document.getElementById('results').innerHTML = '<b>Esti introvertit</b><br><br>\
+		Introvertii in general sunt dificil de inteles pentru cei care nu sunt introvertiti, pentru ca este foarte usor sa asumi ca este doar vorba despre timiditate, cand defapt introvertitii sunt doar niste persoane care considera ca este obositor sa fii inconjurat de oameni.\n\
 <br><br>\
 I love this explanation of an introvert’s need to be alone:\n\
 <br><br>\
-For introverts, to be alone with our thoughts is as restorative as sleeping, as nourishing as eating.\n\n\
+Pentru introvertiti, sa fii lasat in linistea si pacea ta este la fel de odihnitor ca somnul, bineinteles ca nu literalmente.\n\n\
 <br><br>\
-Introverted people are known for thinking things through before they speak, enjoying small, close groups of friends and one-on-one time, needing time alone to recharge, and being upset by unexpected changes or last-minute surprises. Introverts are not necessarily shy and may not even avoid social situations, but they will definitely need some time alone or just with close friends or family after spending time in a big crowd.\
+Se stie despre introvertiti ca prefera ca inainte sa spuna ce are de zis sa gandeasca profund, si ca prefera un grup mai restrans de prieteni. Ei nu prefera lucruri foarte noi sau surprinzatoare, si se bazeaza mai mult pe ce le este cunoscut. Dupa ce introvertitii vin dintr-un mediu obositor sau plin de oameni, ei isi "reincarca bateria" prin timp petrecut singuri, in liniste.\
 		';
 	} else if(total > 0) {
-		document.getElementById('results').innerHTML = '<b>You are extroverted!</b><br><br>\
-		On the opposite side of the coin, people who are extroverted are energized by people. They usually enjoy spending time with others, as this is how they recharge from time spent alone focusing or working hard.\
+		document.getElementById('results').innerHTML = '<b>Esti extrovertit</b><br><br>\
+		Fata de introvertiti, extrovertii ca tine "isi reincarca bateriile" socializand. Voi va petreceti timpul in jurul persoanelor apropiate, astfel odihnandu-va de la timpul petrecut singuri sau sub stres.\
 <br><br>\
 I like how this extrovert explains the way he/she gains energy from being around other people:\
 <br><br>\
 When I am among people, I make eye contact, smile, maybe chat if there’s an opportunity (like being stuck in a long grocery store line). As an extrovert, that’s a small ‘ping’ of energy, a little positive moment in the day.';
 	} else {
-		document.getElementById('results').innerHTML = '<b>You are ambiverted!</b><br><br>\
-		Since introverts and extroverts are the extremes of the scale, the rest of us fall somewhere in the middle. Many of us lean one way or the other, but there are some who are quite balanced between the two tendencies. These people are called ambiverts.\
+		document.getElementById('results').innerHTML = '<b>Esti ambivertit</b><br><br>\
+		Din moment ce introvertitii si extrovertitii se afla la extreme, restul dintre persoanele ca tine din aceasta categorie se afla in aceasta categorie. Multi dintre voi tind spre a fi introvertit sau extrovertit, dar unii reusesc sa puna in balans aceasta situatie.\
 <br><br>\
 So let’s look at how an ambivert compares.\
 <br><br>\
