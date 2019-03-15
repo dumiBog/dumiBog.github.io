@@ -75,7 +75,7 @@ var prompts = [
 	class: 'group14'
 },
 {
-	prompt: 'De obicei sunt foarte motivat si energetic',
+	prompt: 'Lasati alte persoane sa va influenteze actiunile',
 	weight: 1,
 	class: 'group15'
 }
