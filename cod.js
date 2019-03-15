@@ -5,7 +5,7 @@ var prompts = [
 	class: 'group0'
 },
 {
-	prompt: 'Ma pierd asa de mult prin gandurile mele incat nu mai sunt constient de imprejurimi',
+	prompt: 'Ma pierd asa de mult prin ganduri incat nu mai sunt constient de imprejurimi',
 	weight: -1,
 	class: 'group1'
 },
@@ -30,12 +30,12 @@ var prompts = [
 	class: 'group5'
 },
 {
-	prompt: 'De obicei sunt foarte motivat si energetic',
-	weight: 1,
+	prompt: 'Ma ingrijorez prea mult de ce cred alte persoane despre mine',
+	weight: -1,
 	class: 'group6'
 },
 {
-	prompt: 'Imi este usor sa intru intr-o conversatie',
+	prompt: 'De obicei sunt foarte motivat si energetic',
 	weight: 1,
 	class: 'group7'
 },
@@ -65,9 +65,19 @@ var prompts = [
 	class: 'group12'
 },
 {
-	prompt: 'Imi este usor sa fac cunostinta cu persoane noi',
+	prompt: 'Imi petrec majoritatea timpului liber imprejurat de prieteni sau familie',
 	weight: 1,
 	class: 'group13'
+},
+{
+	prompt: 'Ma consider o persoana optimista',
+	weight: 1,
+	class: 'group14'
+},
+{
+	prompt: 'De obicei sunt foarte motivat si energetic',
+	weight: 1,
+	class: 'group15'
 }
 ]
 var prompt_values = [
